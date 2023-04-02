@@ -1,0 +1,14 @@
+{
+  "manager": {
+  "username": "admin",
+  "password": "manager"
+  },
+  "NewUser": {
+    "FirstName": "kanchan",
+    "LastName": "Dhyani",
+    "Email" : "fgdfdgfd@gmail.com",
+    "Department" : "",
+    "HireDate" : "Jan-01-2023"
+    }
+  
+}

@@ -1,0 +1,14 @@
+{
+  "name": "kanchan_dhyani_playwright",
+  "version": "1.0.0",
+  "description": "ActiTime Flows",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Kanchan",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^12.9.0"
+  }
+}
