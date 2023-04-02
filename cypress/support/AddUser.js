@@ -21,7 +21,7 @@ cy.get(AddUser.SaveAndSendInvitation).should("be.visible").click().then(()=>{
    
           
            cy.wait(10000)
-           cy.mailosaurGetMessage("nvvcvogk",{
+           cy.mailosaurGetMessage(serverId,{
               sentTo : emailAddress
            }).then(email => {
                cy.wait(15000)

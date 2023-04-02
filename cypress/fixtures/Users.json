@@ -4,11 +4,12 @@
   "password": "manager"
   },
   "NewUser": {
-    "FirstName": "kanchan",
-    "LastName": "Dhyani",
-    "Email" : "fgdfdgfd@gmail.com",
+    "FirstName": "Automation",
+    "LastName": "Cypress",
+    "Email" : "Test",
     "Department" : "",
-    "HireDate" : "Jan-01-2023"
+    "HireDate" : "Jan-01-2023",
+    "password" : "AutomationPassword" 
     }
   
 }
