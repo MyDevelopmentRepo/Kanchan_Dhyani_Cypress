@@ -10,6 +10,7 @@
   "license": "ISC",
   "devDependencies": {
     "cypress": "^12.9.0",
-    "cypress-mailosaur": "^2.13.0"
+    "cypress-mailosaur": "^2.13.0",
+    "cypress-soft-assertions": "^1.1.0"
   }
 }

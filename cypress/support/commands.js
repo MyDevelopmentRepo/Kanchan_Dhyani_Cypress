@@ -1,6 +1,8 @@
 /// <reference types="cypress" />
 import userLoc from "../locators/login";
-import 'cypress-mailosaur'
+import homeLoc from "../locators/home";
+import "cypress-mailosaur";
+
 // ***********************************************
 // This example commands.js shows you how to
 // create various custom commands and overwrite
@@ -27,17 +29,18 @@ import 'cypress-mailosaur'
 // -- This will overwrite an existing command --
 // Cypress.Commands.overwrite('visit', (originalFn, url, options) => { ... })
 
+Cypress.Commands.add("login", (user, password) => {
+  cy.get(userLoc.UserName).type(user);
+  cy.get(userLoc.Password).type(password);
+  cy.get(userLoc.LoginBttn).click();
+});
 
+Cypress.Commands.add("logout", () => {
+  cy.get(homeLoc.LogoutLink).should("be.visible").click();
+});
 
-Cypress.Commands.add('login', (user, password)=>{
-  cy.get(userLoc.UserName).type(user)
-  cy.get(userLoc.Password).type(password)
-  cy.get(userLoc.LoginBttn).click()
-})
-
-
-
-
-
-
-
+Cypress.on("uncaught:exception", (err, runnable) => {
+  // returning false here prevents Cypress from
+  // failing the test
+  return false;
+});

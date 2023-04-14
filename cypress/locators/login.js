@@ -1,6 +1,5 @@
 export default {
-   "UserName" : "input#username",
-   "Password" : "input[name='pwd']",
-   "LoginBttn" : "a#loginButton"
-   
-}
+  UserName: "input#username",
+  Password: "input[name='pwd']",
+  LoginBttn: "a#loginButton",
+};

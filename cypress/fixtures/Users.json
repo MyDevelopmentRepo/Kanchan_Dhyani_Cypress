@@ -1,15 +1,13 @@
 {
   "manager": {
-  "username": "admin",
-  "password": "manager"
+    "username": "admin",
+    "password": "manager"
   },
   "NewUser": {
     "FirstName": "Automation",
     "LastName": "Cypress",
-    "Email" : "Test",
-    "Department" : "",
-    "HireDate" : "Jan-01-2023",
-    "password" : "AutomationPassword" 
-    }
-  
+    "Email": "Test",
+    "HireDate": "1-1-2023",
+    "password": "AutomationPassword"
+  }
 }
